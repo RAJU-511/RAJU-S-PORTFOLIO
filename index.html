@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title><link rel="icon"  type="image/png" href="favicon.png">
+    <style>
+        *{
+            background-color: rgb(43, 2, 51);
+        }
+        h1{
+            padding: 20px;
+            margin-top: 190px;
+            background-color: rgb(43, 2, 51);
+            font-size: 55px;
+            margin-left: 200px;
+            color: white;
+            margin-right: 800px;
+        
+        }        
+        ul{
+            list-style: none;
+            margin-left: 170px;  
+        }
+        li{
+            display: inline;
+            padding: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 20px;
+        }
+        a:hover{
+            color: rgb(99, 241, 33); 
+        }
+        a:active{
+            color: rgb(237, 203, 11);
+        }
+        .typing {
+      display: inline-block;
+      border-right: 3px solid orange; /* cursor */
+      white-space: nowrap;
+      overflow: hidden;
+      animation: blinkCursor 0.8s step-end infinite;
+      
+    }
+
+    /* Each word cycle */
+    .typing::before {
+      content: "Web Developer";
+      color: blue;
+      animation: 
+        changeText 9s steps(1) infinite, /* change words */
+        typing 3s steps(20) infinite;    /* typing + deleting */
+    }
+
+    /* Cursor blink */
+    @keyframes blinkCursor {
+      50% { border-color: transparent;   color: blue; }
+    }
+
+    /* Typing + deleting effect */
+    @keyframes typing {
+      0%   { width: 0ch;  margin-left: 10px; color: rgb(55, 225, 8); font-size: 30px; }
+      40%  { width: 20ch; margin-left: 50px; color: rgb(15, 231, 145);} /* fully typed */
+      60%  { width: 20ch; margin-left: 150px; color: rgb(231, 8, 227);} /* pause */
+      100% { width: 0ch; margin-left: 50px; color: rgb(4, 198, 10);} /* delete */
+    }
+    /* Switching words */
+    @keyframes changeText {
+      0%, 33%   { content: "Web Developer";  
+       color: rgb(13, 17, 236);}
+      34%, 66%  { content: "Python Developer"; }
+      67%, 100% { content: "Full Stack Developer"; }
+    }
+     .icon  {
+             display: flex;
+             gap: 50px;  
+             margin-left: 240px;   
+             padding-top: 25px;
+        }
+        .ficons{
+            background-color: rgb(4, 14, 164);
+            padding: 5px;
+            margin: 17px;
+        }
+    </style>
+     <script src="https://kit.fontawesome.com/073f66530f.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div>
+    
+    <h1>CH KATAM RAJU </h1>
+    <h3 style="margin-left: 250px; color: rgb(15, 234, 41); font-size: 31px; display: flex;">I'M <span class="typing"></span></h3>
+    <ul>
+        <li>
+            <a href="index.html">Home</a>
+            </li>
+        <li>
+            <a href="About.html">About</a>
+            </li>
+        <li>
+            <a href="Education.html">Education</a>
+         </li>
+        <li>
+            <a href="Projects.html">Projects</a>
+        </li>
+        <li>
+            <a href="Skills.html">Skills</a> 
+        </li>
+        <li>
+            <a href="https://drive.google.com/file/d/1PVcpum-V5MPRnqal6IxZGxgYluHn1w2j/view?usp=drive_link" target="_blank">Resume</a>
+        </li>
+        <li>
+            <a href="Contact.html">Contact</a>
+        </li>
+    </ul></div>
+     <div class="icon">
+                <a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook" style="font-size: 30px; color:  rgb(6, 50, 171);  border-radius: 50%;"></i>
+                </a>
+                <a href="https://x.com/i/flow/login">
+                    <i class="fa-brands fa-square-x-twitter" style="font-size: 30px; color: rgb(4, 4, 121);  border-radius: 50%;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/?flo=true">
+                   <i class="fa-brands fa-square-instagram" style="font-size:30px; color: orange;  border-radius: 50%;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/katam-raju75f2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <i class="fa-brands fa-linkedin" style="font-size: 30px; color: rgb(14,12,169);  border-radius: 50%;"></i>
+                    </a>
+    </div>
+    
+    
+    
+</body>
+</html>
+
+
+ 
+ 

@@ -1,0 +1,309 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title><link rel="icon" type="png/jpg" href="favicon.png">
+    <style>
+        body{
+             margin: 0px;
+             padding: 0px;
+        }
+        .heading{
+            background-color: chartreuse;
+            margin-top: 0px;
+            padding: 10px;
+        }
+        .contact{
+            display: flex;
+            background-color: rgb(241, 9, 9);
+            gap: 120px;     
+        }
+        .icon  {
+            padding-top: 10px;
+             display: flex;
+             gap: 50px;  
+             margin-left: 350px;   
+        }
+        .head1{
+            background-color: rgb(14, 129, 3);
+            display: flex;
+           color: rgb(243, 238, 238);
+        }
+        .head2{
+            margin-left: 90px;
+            display: flex;
+            font-size: 23px;
+         }
+        .nav{
+            margin-left: 120px;
+            padding-top: 20px;
+        }
+       .nav a:hover{
+            background-color: rgb(13, 233, 203);
+        }
+        .nav a{
+            font-size: 21px;
+            text-decoration: none;
+            padding: 20px;
+            margin-left: 20px;
+            color: rgb(242, 242, 244);
+         }
+                
+ 
+          .mail:hover{ 
+            color: rgb(67, 4, 126);
+        }
+        .mail{
+            margin-left: 20px;
+            color: whitesmoke;
+        }
+         .btn1{
+            background-color: rgb(3, 26, 110); 
+            border-radius: 12px; 
+            color: white; 
+            margin-left: 60px;
+            padding: 4px; 
+         }
+         form{
+            display: none;
+            width: 400px;
+            height: 400px;
+            font-size: 15px;
+            padding: 20px;
+            bottom: 0px;
+            left: 750px;
+            top: 50px;
+         }
+         .btn1:hover form{
+            position: absolute;
+            display: block;
+            background-color: whitesmoke;
+            margin-top: 4px;
+         }
+         .btn2:hover form{
+            position: absolute;
+            left:250px;
+            top:300px;
+            display: block;
+            background-color: whitesmoke;
+            color: black;
+         }
+         .Rj{
+            margin: 0px;
+            padding-top: 30px;
+         }
+         
+        .Rj,.Room,.para1{
+            margin-left: 150px;
+            color: white;
+        }
+        .main{
+           background-image: url("https://miro.medium.com/v2/resize:fit:750/1*zJkojKNpFD9HFGPJLCs15Q.jpeg");
+           height: 560px;
+           width: 100%;
+           background-size: cover;
+           animation: item 15s infinite;
+           font-size: 20px;
+           background-position: center; 
+           margin: 0px;
+           padding: 0px;
+        }
+        .ficons{
+            background-color: rgb(4, 14, 164);
+            padding: 5px;
+            margin: 17px;
+        }
+         .box{
+            display: flex;
+            padding: 10px;
+            margin-left: 100px;
+            padding-top: 10px;
+            margin-right: 10px;
+            gap: 20px;
+            box-shadow: 5px solid green;
+            
+        }
+        .box2{
+             
+            height: 160px;
+            width: 700px;
+            font-size: 17px;
+            text-align: center;
+            border: rgb(10, 80, 230) solid;
+            color: whitesmoke;          
+        }
+        .icon  {
+             display: flex;
+             gap: 50px;  
+             margin-left: 200px;   
+        }
+        body{
+            background-color: rgb(29, 10, 46);
+        }
+        .c1{
+            color: white;
+        }
+        .details{
+            color: white;
+            font-size: 23px;
+             
+        }
+        .box{
+            margin-left: 100px;
+            padding-top: 10px;
+            margin-right: 10px;
+            gap: 10px;
+            box-shadow: 5px solid rgb(18, 209, 18);
+            
+        }
+        .box2{
+             
+            height: 440px;
+            width: 600px;
+            font-size: 15px;
+            text-align: center;
+            border: rgb(10, 45, 217) solid;
+            color: rgb(245, 245, 245); 
+            border-radius: 20px; 
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;        
+        }
+        .box2:hover{
+            background-color: rgb(95, 11, 131);
+            color: white;
+        }
+        .img{
+            width: 600px;
+            height: 110px;
+            border-radius: 20px;
+             
+        }
+         .Box{
+            display: flex;
+            
+            margin-left: 100px;
+            padding-top: 10px;
+            margin-right: 10px;
+            gap: 10px;
+            box-shadow: 5px solid green;
+            
+        }
+        .Box2{
+            
+            height: 140px;
+            width: 230px;
+            font-size: 20px;
+            text-align: center;
+            border: rgb(230, 10, 208) solid;
+            color: rgb(33, 228, 16); 
+            border-radius: 20px; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;        
+        } 
+        .Box2:hover{
+    
+            color: rgb(28, 225, 28);
+        }
+        .Box2:hover{
+            background-color: rgb(36, 4, 78);
+        }
+      
+      
+        
+    
+    </style>
+    <script src="https://kit.fontawesome.com/073f66530f.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <div>
+    <div class="head1">
+        <h2 class="head2"><i class="fa-solid fa-user-graduate"></i>CH KATAM RAJU </h2>
+        <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Education.html">Education</a>
+    <a href="Projects.html">Projects</a>
+    <a href="https://drive.google.com/file/d/1PVcpum-V5MPRnqal6IxZGxgYluHn1w2j/view?usp=drive_link" target="_blank">Resume</a>
+    <a href="Skills.html">Skills</a>
+    <a href="Contact.html">Contact</a>
+</div>   
+</div>
+<div>
+    <h2 style="margin-left: 100px; margin-top: 40px; color: rgb(243, 250, 243); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">EDUCATION</h2> 
+        <hr style="margin-left: 190px; margin-right: 1100px;">
+         <div class="box">
+<div class="box2">
+   <img src="bsnt.png" class="img">
+   <h5 class="details">Full Stack Intern <br>
+August 2025 - Present
+Relevant Coursework <br><br>
+Frontend With :- <br>
+HTML5,CSS3,Javascript,Reactjs,Bootstap <br><br>
+Backend With :-
+Python,Django <br>
+Database :- My SQL</h5>
+</div> 
+         <div class="box">
+<div class="box2">
+ <img src="khit.png" class="img">
+      <h5 class="details">B.Tech. in Computer Science <br>
+July 2025 <br><br>
+Relevant Coursework :- <br>
+Computer Science Engineering <br>
+Python development <br>
+Machine Learning <br>
+Web Development <br>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="box2">
+<img src="inter.png" class="img">
+<h5 class="details">Intermediate in MPC Course <br>
+July 2019 - April 2021 <br> <br>
+Relevant Coursework <br><br>
+Mathematics <br>
+Physics <br>
+English (First language)
+</h5>
+</div>
+<div class="box">
+<div class="box2">
+  <img src="school.png" class="img">
+      <h5 class="details">Primary Studies <br>
+August 2006 - May 2018  <br> <br>
+Relevant Coursework <br><br>
+Mathematics <br>
+English (First language) <br>
+Remaining Standard Subjects
+ </h5>
+</div>
+</div>
+</div>
+<div>
+     <h2 style="margin-left: 100px; margin-top: 40px; color: rgb(243, 250, 243); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">ONLINE CERTIFICATIONS</h2> 
+        <hr style="margin-left: 290px; margin-right: 1100px;">
+         <div class="Box">
+<div class="Box2">
+   <pre><i class="fa-solid fa-certificate"></i></pre>
+   <h5 class="Details"><a href="https://drive.google.com/file/d/1l0GN8nWbh1Ifj0aoaMFdiKGfvDsuk0Fa/view" style="text-decoration: none; color: beige;">Python</a></h5>
+</div>
+         <div class="Box">
+<div class="Box2">
+   <pre><i class="fa-solid fa-certificate"></i></pre>
+   <h5 class="Details"><a href="https://drive.google.com/file/d/1kspKB4npbsBdLJzARkOA9mnurmV04Dg9/view" style="text-decoration: none; color: beige;">Machine Learning</a>
+</h5>
+</div>
+<div class="Box">
+<div class="Box2">
+   <pre><i class="fa-solid fa-certificate"></i></pre>
+   <h5 class="Details"><a href="https://drive.google.com/file/d/1l5uRJWZzCk4oY7tHVWF8LJsMfW08PgkD/view" style="text-decoration: none; color: beige;">SALESFORCE</a></h5>
+</div>
+</div>
+<div class="Box">
+<div class="Box2">
+   <pre><i class="fa-solid fa-certificate"></i></pre>
+   <h5 class="Details"><a href="https://drive.google.com/file/d/1LcepXOZvGIqb4mxgJW_pVFnW0xqdKus-/view?usp=drivesdk" style="text-decoration: none; color: beige;">Full Stack Development</h5></a>
+</div>
+</div>
+ </body>
+ </html>
